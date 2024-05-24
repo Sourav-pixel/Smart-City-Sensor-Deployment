@@ -37,6 +37,16 @@ Click the "Deploy Sensors" button to start the deployment process. A progress ba
 Visualize results:
 
 The application will display the map with deployed sensors and show histograms of the sensor distribution.
+
+Sensor Deployment Techniques
+The "Smart City Sensor Deployment" project utilizes the following techniques for deploying sensors effectively in a smart city environment:
+
+Grid-Based Deployment: Sensors are deployed on a grid pattern within the specified area. The user inputs the grid size, and sensors are placed at each grid point.
+
+Optimal Placement: If a sensor cannot be placed on a grid point (e.g., due to a water body), the application finds the nearest valid position using a bounded breadth-first search algorithm. This ensures that sensors are optimally placed while avoiding obstacles.
+
+Water Body Detection: The application automatically detects water bodies on the map by analyzing the color information (HSV) of each pixel. Sensors are then prevented from being placed on water bodies to ensure efficient deployment.
+
 Example
 Here is an example of how to use the application:
 
