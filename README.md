@@ -1,6 +1,3 @@
-
-Sure! Here’s a detailed README file for the "Smart City Sensor Deployment" project:
-
 Smart City Sensor Deployment
 Smart City Sensor Deployment is a Python application that helps in deploying sensors in a smart city environment. This application allows users to load a map, input area dimensions, grid size, and sensor range, and visualize the deployment of sensors while avoiding water bodies detected on the map. The project uses CustomTkinter for a modern GUI and incorporates threading to keep the interface responsive during computation.
 
