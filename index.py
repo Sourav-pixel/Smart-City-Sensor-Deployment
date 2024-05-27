@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import threading
+import pandas as pd
 import cv2
 from collections import deque
 
@@ -110,7 +111,6 @@ class SensorDeploymentApp(ctk.CTk):
         processed_points = 0
         total_points = len(grid_points_x) * len(grid_points_y)
 
-        # Deploy sensors with optimal placement strategy
         for x in grid_points_x:
             for y in grid_points_y:
                 image_x = x * scale_width
@@ -177,7 +177,7 @@ class SensorDeploymentApp(ctk.CTk):
             sensor_circle = patches.Circle(
                 (x, y),
                 radius=sensor_range * scale_width,
-                color='red',
+                color='lightcoral',
                 alpha=0.2,
                 zorder=1
             )
@@ -210,6 +210,8 @@ class SensorDeploymentApp(ctk.CTk):
         ax.legend()
 
         plt.show()
+
+
 
 
 # Run the application
