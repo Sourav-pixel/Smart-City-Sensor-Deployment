@@ -1,13 +1,13 @@
-Smart City Sensor Deployment
+## Smart City Sensor Deployment
 Smart City Sensor Deployment is a Python application that helps in deploying sensors in a smart city environment. This application allows users to load a map, input area dimensions, grid size, and sensor range, and visualize the deployment of sensors while avoiding water bodies detected on the map. The project uses CustomTkinter for a modern GUI and incorporates threading to keep the interface responsive during computation.
 
-Features
+# Features
 Grid-Based Sensor Deployment: Deploy sensors in a grid pattern within the specified area.
 Water Body Detection: Automatically detect water bodies on the map and avoid placing sensors on them.
 Optimal Sensor Placement: If a sensor cannot be placed on a grid point, find the nearest valid position.
 Interactive GUI: User-friendly interface for loading maps, entering parameters, and visualizing results.
 Progress Bar: Visual feedback on the deployment process.
-Visualization: Display deployed sensors on the map and show sensor distribution histograms.
+## Visualization: Display deployed sensors on the map and show sensor distribution histograms.
 Requirements
 Python 3.6+
 CustomTkinter
@@ -16,7 +16,7 @@ Matplotlib
 NumPy
 OpenCV
 
-Install the required packages:
+## Install the required packages:
 
 pip install customtkinter Pillow matplotlib numpy opencv-python-headless
 
