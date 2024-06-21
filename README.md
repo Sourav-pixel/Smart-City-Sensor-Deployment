@@ -4,7 +4,8 @@ Smart City Sensor Deployment is a Python application that helps in deploying sen
 # Features
 Grid-Based Sensor Deployment: Deploy sensors in a grid pattern within the specified area.
 Water Body Detection: Automatically detect water bodies on the map and avoid placing sensors on them.
-Optimal Sensor Placement: If a sensor cannot be placed on a grid point, find the nearest valid position.
+Optimal Sensor Placement: If a sensor cannot be placed on a grid point, find the nearest valid position
+
 Interactive GUI: User-friendly interface for loading maps, entering parameters, and visualizing results.
 Progress Bar: Visual feedback on the deployment process.
 ## Visualization: Display deployed sensors on the map and show sensor distribution histograms.
@@ -77,3 +78,4 @@ Real-time Updates: Implement real-time updates and feedback during sensor deploy
 User Feedback: Add more detailed error messages and confirmations to improve user interaction.
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue for any bug or feature request.
+.![Screenshot_20240526_145144](https://github.com/Sourav-pixel/Smart-City-Sensor-Deployment/assets/84978182/d9dd3738-c9d3-4bdf-be9d-1defc34ad0cc)
